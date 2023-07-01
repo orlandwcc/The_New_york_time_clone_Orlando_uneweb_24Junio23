@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+form{
+  padding: 50px;
+  max-width: 530px;
+  background-color: #e2e2e2;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+hr{
+    width:40%;
+    border-color:rgb(160, 101, 228);
+}
+h5, h6{
+  text-align: center;
+}
+h6{
+  color: red;
+}
+label{
+  background-color:#ffffff;
+  color: #696969e8;
+  padding: 2.4%;
+  margin-bottom: 15px;
+}
+.e{
+  margin-left: 18%;
+  padding:0%;
+  background: none;
+}
+input[type="radio"]{
+  margin-left: 5%;
+  }
+input[type="radio"]:hover{
+  transform: translatey(1px);
+ }
+.a, .password{
+  margin-top: 8px;
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: none; 
+  }
+button {
+  margin: 2%;
+	padding: 10px 35px 10px 35px;
+	border: 0;
+	font-size: 0.8em; 
+  font-family: "Roboto", sans-serif; 
+}
+button[type="submit"]{
+  margin-left: 20%;
+  border-radius: 10px;
+  background-color: rgb(160, 101, 228);
+  color: 	white;
+}
+button[type="reset"]{
+  color: rgb(137, 48, 238);
+  border-radius: 10px;
+}
+form button[type="submit"]:hover{
+	background-color: rgb(137, 48, 238);
+    box-shadow: none;
+}
+.password-icon {
+  float: right;
+  position: relative;
+  margin: -44px 10px 0 0;
+  cursor: pointer;
+}
+form textarea{
+  margin-top: 3px;
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: none; 
+}
+textarea {  resize: none;}

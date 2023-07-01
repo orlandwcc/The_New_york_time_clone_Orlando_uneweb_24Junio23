@@ -7,9 +7,13 @@ form{
   margin-bottom: 2%;
   margin-top: 2%;
 }
+h1{
+  text-align: center; 
+  background-color: #e2e2e2;
+  margin: 0% 29%;
+}
 hr{
-    width:40%;
-    border-color:rgb(160, 101, 228);
+  border-color:rgb(160, 101, 228);
 }
 h5, h6{
   text-align: center;
@@ -23,7 +27,7 @@ label{
   padding: 2.4%;
   margin-bottom: 15px;
 }
-.e{
+.local{
   margin-left: 18%;
   padding:0%;
   background: none;
@@ -33,8 +37,8 @@ input[type="radio"]{
   }
 input[type="radio"]:hover{
   transform: translatey(1px);
- }
-.a, .password{
+}
+.campo, .password{
   margin-top: 8px;
   margin-bottom: 15px;
   font-family: "Roboto", sans-serif;
@@ -85,4 +89,7 @@ form textarea{
   font-size: 1em;
   resize: none; 
 }
-textarea {  resize: none;}
+textarea {  
+  resize: none;
+  
+}

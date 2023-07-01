@@ -7,56 +7,56 @@
     <link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
-    <title>Formulario Orlando Caceres</title>
+    <title>Formulario | Orlando Caceres</title>
 </head>
 <body>
-     <h1 style="text-align: center"><hr>Formulario<hr></h1>
-     <form action="formulario" method="post">
-          <h5>Por favor rellene los campos.</h5>
-          <h6>* indica los campos obligatorios</h6>
-          <input class="a" name="nombre" type="text" placeholder="Nombre*" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
-          <input class="a" name="apellido" type="text" placeholder="Apellido*" maxlength="30" pattern="[a-zA-Z0-9]+" required>
-          <input class="a" name="email" type="email" placeholder="Correo electrónico*" required />
-          <input class="password" name="password" type="password" placeholder="Contraseña*"class="form-control password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
-          <span class="fa fa-fw fa-eye password-icon show-password"></span>
-          <label>¿Te gusta el Turrón?</label> 
-          <input type="radio" name="opcion" value="a"> Me encanta
-          <input type="radio" name="opcion" value="e"> No
-          <label>¿Te gusta la Mantequilla de maní?</label> 
-          <input type="radio" name="opcion2" value="a"> Siii
-          <input type="radio" name="opcion2" value="e"> No
-          <Label class="e" for="ielegir">Elegir estado* :</Label>
-          <input type="list" list="elige un estado" id="ielegir" name="elegir" required>
-          <datalist id="elige un estado">
-             <option value="Amazonas">
-             <option value="Anzoátegui">
-             <option value="Apure">
-             <option value="Aragua">
-             <option value="Barinas">
-             <option value="Bolívar">
-             <option value="Carabobo">
-             <option value="Cojedes">
-             <option value="Delta Amacuro">
-             <option value="Distrito Capital">
-             <option value="Falcón">
-             <option value="Guárico">
-             <option value="Lara">
-             <option value="Mérida">
-             <option value="Miranda">
-             <option value="Monagas">
-             <option value="Nueva Esparta">
-             <option value="Portuguesa">
-             <option value="Sucre">
-             <option value="Táchira">
-             <option value="Trujillo">
-             <option value="Vargas">
-             <option value="Yaracuy">
-             <option value="Zulia">
-          </datalist>
-          <textarea name="consulta" placeholder="¿Qué te parecio este formulario?" rows="6"></textarea>
-          <button id="enviar" name="enviar" type="submit" >Enviar</button>
-          <button id="resetear" name="resetear" type="reset" >Borrar formulario</button><br>
-     </form>
-     <script src="css/js.js"></script>
+    <h1 ><hr>Formulario<hr></h1>
+    <form action="formulario" method="post">
+        <h5>Por favor rellene los campos.</h5>
+        <h6>* indica los campos obligatorios</h6>
+        <input id="required" class="campo" name="nombre" type="text" placeholder="Nombre*" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
+        <input id="required" class="campo" name="apellido" type="text" placeholder="Apellido*" maxlength="30" pattern="[a-zA-Z0-9]+" required>
+        <input id="required" class="campo" name="email" type="email" placeholder="Correo electrónico*" required />
+        <input id="required" class="password" name="password" type="password" placeholder="Contraseña*"class="form-control password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+        <span class="fa fa-fw fa-eye password-icon show-password"></span>
+        <label>¿Te gusta el Turrón?</label> 
+        <input type="radio" name="opcion" value="a"> Si
+        <input type="radio" name="opcion" value="e"> No
+        <label>¿Te gusta la Mantequilla de maní?</label> 
+        <input type="radio" name="opcion2" value="a"> Si
+        <input type="radio" name="opcion2" value="e"> No
+        <Label class="local" for="ielegir">Elegir estado* :</Label>
+        <input type="list" list="elige un estado" id="ielegir" name="elegir" required>
+        <datalist id="elige un estado">
+            <option value="Amazonas">
+            <option value="Anzoátegui">
+            <option value="Apure">
+            <option value="Aragua">
+            <option value="Barinas">
+            <option value="Bolívar">
+            <option value="Carabobo">
+            <option value="Cojedes">
+            <option value="Delta Amacuro">
+            <option value="Distrito Capital">
+            <option value="Falcón">
+            <option value="Guárico">
+            <option value="Lara">
+            <option value="Mérida">
+            <option value="Miranda">
+            <option value="Monagas">
+            <option value="Nueva Esparta">
+            <option value="Portuguesa">
+            <option value="Sucre">
+            <option value="Táchira">
+            <option value="Trujillo">
+            <option value="Vargas">
+            <option value="Yaracuy">
+            <option value="Zulia">
+        </datalist>
+        <textarea name="consulta" placeholder="¿Qué te parecio este formulario?" rows="6"></textarea>
+        <button id="enviar" name="enviar" type="submit" >Enviar</button>
+        <button id="resetear" name="resetear" type="reset" >Borrar formulario</button><br>
+    </form>
+    <script src="css/js.js"></script>
 </body>
 </html>

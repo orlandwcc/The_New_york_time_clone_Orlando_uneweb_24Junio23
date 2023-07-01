@@ -10,15 +10,13 @@
     <title>Formulario Orlando Caceres</title>
 </head>
 <body>
-     <center>
-     <h1><hr>Formulario<hr></h1>
-     </center>
+     <h1 style="text-align: center"><hr>Formulario<hr></h1>
      <form action="formulario" method="post">
           <h5>Por favor rellene los campos.</h5>
           <h6>* indica los campos obligatorios</h6>
-          <input class="a" name="nombre" type="text" placeholder="Nombre" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
-          <input class="a" name="apellido" type="text" placeholder="Apellido" maxlength="30" pattern="[a-zA-Z0-9]+" required>
-          <input class="a" name="email" type="email" placeholder="Correo electrónico" required />
+          <input class="a" name="nombre" type="text" placeholder="Nombre*" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
+          <input class="a" name="apellido" type="text" placeholder="Apellido*" maxlength="30" pattern="[a-zA-Z0-9]+" required>
+          <input class="a" name="email" type="email" placeholder="Correo electrónico*" required />
           <input class="password" name="password" type="password" placeholder="Contraseña*"class="form-control password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
           <span class="fa fa-fw fa-eye password-icon show-password"></span>
           <label>¿Te gusta el Turrón?</label> 
@@ -27,7 +25,7 @@
           <label>¿Te gusta la Mantequilla de maní?</label> 
           <input type="radio" name="opcion2" value="a"> Siii
           <input type="radio" name="opcion2" value="e"> No
-          <Label class="e" for="ielegir">Elegir estado:</Label>
+          <Label class="e" for="ielegir">Elegir estado* :</Label>
           <input type="list" list="elige un estado" id="ielegir" name="elegir" required>
           <datalist id="elige un estado">
              <option value="Amazonas">

@@ -46,4 +46,147 @@
 
 a{
     text-decoration: none;
+    color: black;
 }
+.article-top{
+    margin: 5rem auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.display_flex{
+    display: flex;
+}
+.main-title {
+    font-family: "Sansita Swashed", cursive;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.img-top {
+    width: 59.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-title {
+    font-family: "Sansita Swashed", cursive;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 3rem;
+} 
+.main-pic {
+    width: 100%;
+} 
+.info-pic {
+    font-family: "Roboto Slab", serif;
+    color: gray;
+    width: 100%;
+    align-self: flex-start;
+    font-size: 0.9rem;
+}
+.Rick-Friedman {
+    font-size: 0.8rem;
+    color: darkgrey;
+}
+.actual-article {
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40rem;
+}
+.div100{
+    width: 34rem;
+}
+.autor-name-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+} 
+.autor-name {
+    text-decoration-line: underline;
+    text-decoration-color: #ccc;
+    color: black;
+}
+.autor-name:hover {
+text-decoration: none;
+}
+.social-media-bar {
+    height: 3rem;
+    width: 33rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media-icons{
+    display: flex;
+}
+.date-social-media {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.8rem;
+} 
+.shape-of-button {
+    border-radius: 50%;
+    background-color: #eee;
+    color: black;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    border: 1px solid #eee;
+}
+.shape-of-button:hover {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.resize-icons {
+    font-size: 0.8rem;
+}
+.shape-of-button-void-structure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+.another-resize-icons > a > [name~="bookmark-outline"],
+.another-resize-icons > a > [name~="chatbox-outline"] {
+    font-size: 1.5rem;
+}
+.relocation-numbers-messages {
+    font-size: 0.65rem;
+    position: relative;
+    right: 1.5rem;
+    bottom: 0.6rem;
+}
+.button-read-comments {
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    padding: 0.8rem 5rem;
+    border-radius: 0.2rem;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.social-media-icons{
+    display: flex;
+}
+/*for (int i = 0; i < n; i++) {
+    if (j < n-1){
+        j++;
+        printf(" ");
+    }else if(k <= i) {
+        k++;
+        printf("#");
+    }
+    printf("\n");
+}  
+}!

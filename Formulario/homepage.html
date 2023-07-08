@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Presentación</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="css/stylehomepage.css" />
+</head>
+	<body class="is-preload">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+				<!-- Header -->
+					<header id="header">
+						<h1>&nbsp;&bull;&nbsp; Formulario &nbsp;&bull;&nbsp;</h1>	
+							<a href="index.html" class="button style2 down">more</a>
+						</header>
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Hecho por | Orlando Caceres.</span>
+					</footer>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
